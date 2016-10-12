@@ -10,6 +10,11 @@
 
 int main(int argc, const char * argv[]) {
     // insert code here...
-    printf("Hello, World!\n");
+    unsigned int i = 0;
+    do {
+        printf("i=%d\n",i);
+        i++;
+    } while (i <= 0xFFFF);
+    
     return 0;
 }
